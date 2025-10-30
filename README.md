@@ -21,27 +21,43 @@ Tools:Git, VS Code, Python Virtual Environment (venv)
 Setup Instructions
 1. Clone the Repository
 git clone https://github.com/vidhijain0606/STOCK_ANALYSER
+
 cd stock-portfolio-watchlist
+
 2. Backend Setup
+
 cd backend
+
 python -m venv venv
+
 venv\Scripts\activate      # For Windows
+
 # source venv/bin/activate  # For macOS/Linux
+
 pip install -r requirements.txt
+
 python run.py
+
 Backend runs at:
+
 http://127.0.0.1:5000
+
 3. Frontend Setup
+
 cd frontend
+
 npm install
+
 npm run dev
-Frontend runs at:
-http://localhost:5173
+
+Frontend runs at: http://localhost:5173
 
 4. Connect Frontend and Backend
+
 The frontend communicates with the Flask backend via REST API endpoints such as /login, /watchlist, and /watchlist/add.
-If the backend is running on a different port, update the base URL inside:
-frontend/src/config/api.ts
+
+If the backend is running on a different port, update the base URL inside:frontend/src/config/api.ts
+
 Project Structure
 Stock-Portfolio-Watchlist/
 │
