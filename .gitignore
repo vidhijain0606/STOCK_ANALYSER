@@ -1,0 +1,35 @@
+# Python 
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Flask 
+instance/
+*.db
+*.sqlite3
+
+#Node / React 
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+
+#OS / IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+#Backup / Temp
+*.bak
+*.tmp
+*.swp
+
+#Images / Docs
+*.png
+*.jpg
+*.jpeg
+*.gif
